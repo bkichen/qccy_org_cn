@@ -1,0 +1,201 @@
+body, html {
+	font-size: 12px;
+	font-family: "宋体";
+	line-height: 150%;
+	height: 100%;
+	margin: 0;
+	padding: 0px;
+	background: #fff;
+}
+div, form, ul, ol, li, dl, dt, dd, span, p, img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+}
+img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+ul, ol, li {
+	list-style: none;
+}
+table, td, input, search {
+	font-size: 12px;
+}
+a:link, a:visited {
+	color: #000;
+	text-decoration: none;
+}
+a:hover, a:active {
+	color: #c00;
+}
+div.clear {
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}
+.system_head {
+	width: 100%;
+	height: 36px;
+	float: left;
+	background: url(http://youth.bjchy.gov.cn/images/head_back_cms.gif) top left repeat-x #f8f6f7;
+}
+.system_head img {
+	float: left;
+	margin: 0px;
+}
+.system_head span {
+	float: right;
+	text-align: right;
+	width: 200px;
+	padding: 10px 10px 0 0;
+	height: 16px;
+}
+.system_welcome {
+	width: auto;
+	height: auto;
+	float: left;
+	background: url(http://youth.bjchy.gov.cn/images/system_welcome_back.gif) top left repeat-x #eff8ff;
+	border: 1px #abd5ff solid;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+.system_foot {
+	width: 100%;
+	height: 23px;
+	float: left;
+	text-align: right;
+	background: url(http://youth.bjchy.gov.cn/images/system_foot_back.gif) bottom left repeat-x;
+}
+.system_foot span.system_foot_left {
+	float: left;
+	height: 23px;
+	line-height: 23px;
+	padding: 0 0 0 10px;
+	width: 200px;
+}
+.system_foot span.system_foot_right {
+	float: right;
+	height: 23px;
+	line-height: 23px;
+	padding: 0 10px 0 0;
+	width: 200px;
+}
+.caption
+{
+	background-image: url(../images/bg_caption.gif);
+	height: 20px;
+}
+
+.block
+{
+	font-size: 12px;
+	text-align: left;
+	border: 0px;
+}
+.grid
+{
+	font-size: 12px;
+	text-align: center;
+	border: 0px;
+}
+.btn
+{
+	border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	background: url('../images/button.gif') no-repeat;
+	height: 21px;
+	width: 86px;
+}
+.btn:hover
+{
+	background: url( '../images/button_hover.gif' ) no-repeat;
+	border: 0px;
+	height: 21px;
+	width: 86px;
+}
+.page
+{
+	text-align: left;
+	font-size: 12px;
+}
+
+A:link
+{
+	color: #004499;
+	text-decoration: none;
+}
+A:visited
+{
+	color: #004499;
+	text-decoration: none;
+}
+A:active
+{
+	color: #004499;
+	text-decoration: none;
+}
+A:hover
+{
+	color: #004499;
+	text-decoration: underline;
+}
+
+.tborder
+{
+	border-top: #aaddff 1px solid;
+	border-left: solid 1px #aaddff;
+	border-right: solid 1px #aaddff;
+	border-bottom: solid 1px #aaddff;
+}
+
+.tborder2
+{
+	border: solid 1px #e1e1e1;
+}
+.Brak
+{
+	word-break: break-all;
+}
+
+.pages
+{
+	color: #999;
+}
+.pages a, .pages .cpb
+{
+	text-decoration: none;
+	float: left;
+	padding: 0 5px;
+	border: 1px solid #C1E6F7;
+	background: #ffff;
+	margin: 2px 2px;
+	font-size: 11px;
+	color: #000;
+	text-align: center;
+	width: 48px;
+	height: 20px;
+	vertical-align: middle;
+}
+.pages a:hover
+{
+	background-color: #C1E6F7;
+	color: #fff;
+	border: 1px solid #C1E6F7;
+	text-decoration: none;
+}
+.pages .cpb
+{
+	font-weight: bold;
+	color: #fff;
+	background: #C1E6F7;
+	border: 1px solid #C1E6F7;
+}

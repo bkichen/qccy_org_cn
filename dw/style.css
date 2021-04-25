@@ -1,0 +1,112 @@
+
+
+#container {
+	width: 200px;
+	min-height: 100%; /*ie hack*/
+}
+
+#content {
+	width: 200px;
+	margin: 0 auto;
+}
+
+
+
+#content h3 {
+	padding: 10px 0 8px 15px;
+	margin: 0;
+	font-size: 12px;
+	font-weight: normal;
+	color: #222;
+	background: #fff url("bg.jpg");
+	cursor: pointer;
+	border-bottom: 1px solid #fff;
+	text-decoration: none;
+}
+
+#content h3.toggler a {
+	color: #666;
+	text-decoration: none;
+	margin-left:23px;
+}
+
+#content h3.toggler a:hover {
+	color: black;
+}
+
+div.accordion {
+	
+	
+}
+
+div.accordion ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 5px 0;
+}
+
+div.accordion ul li {
+	padding: 6px 0;
+	
+	margin-left:20px;
+	border-bottom:dotted 1px #dddddd;
+}
+
+div.accordion ul li a {
+	color: #666;
+	text-decoration: none;
+	
+	display: block;
+	padding: 4px 0px 4px 20px;
+	font-size: 90%;
+
+}
+
+div.accordion ul li a span {
+	padding-bottom: 10px;
+
+}
+
+div.accordion ul li a img {
+	border: 0;
+	vertical-align: bottom;
+	margin-right: 15px;
+}
+
+div.accordion ul li a:hover span {
+	text-decoration: underline;	
+}
+
+#top_round {
+	height: 10px;
+	font-size: 1px; /* ie whitespace */
+}
+
+#bottom_round {
+	height: 10px;
+	font-size: 1px; /* ie whitespace */
+}
+	
+.top_dark {
+	background: url("../images/top_dark.gif") no-repeat top left;
+}
+
+.top_light {
+	background: url("../images/top_light.gif") no-repeat top left;
+}
+
+.bottom_dark {
+	background: url("../images/bottom_dark.gif") no-repeat top left;
+}
+
+.bottom_light {
+	background: url("../images/bottom_light.gif") no-repeat top left;
+}
+
+.first {
+	padding-top: 5px;
+}
+
+.last {
+	padding-bottom: 5px;
+}

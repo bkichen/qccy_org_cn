@@ -1,0 +1,10 @@
+/* CSS Document */
+ul,li{list-style:none;}
+#box{width:330px;height:295px;position:relative;left:0;top:0;overflow:hidden; background:#fff;}
+#box ol{position:relative;left:0;top:230px;width:150px;height:35px;z-index:999;padding-left:210px;}
+#box ol li{background:#ccc;float:left;margin-right:8px;color:#000;line-height:14px;text-align:center;font-size:12px;cursor:pointer;padding:0 4px;z-index:999; position:relative; border-radius:10px;}
+#box ol li.hover{background:#bd1a2d; padding:1px 5px;color:#fff;font-weight:bold;position:relative;bottom:1px;}
+#box ul{position:absolute;top:0;left:0;height:925px;}
+#box ul li,#box ul li img{ width:330px;height:260px; margin:0; padding:0; *display:inline;!important}
+#chy_con{width:330px;background:#fff; padding-top:0px;height:40px; line-height:32px;overflow:hidden;z-index:999;position:absolute;bottom:0;left:0; }
+#chy_con p{display:none;font-size:16px;line-height:18px; text-align:center;  background:#fff; padding-top:5px;}

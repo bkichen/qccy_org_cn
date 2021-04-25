@@ -1,0 +1,313 @@
+
+/* CSS Document */
+body, html
+{
+	font-size: 12px;
+	font-family: "宋体";
+	line-height: 150%;
+	height: 100%;
+	margin: 0;
+	padding: 0px;
+	background: #6c6c6c;
+}
+div, form, ul, ol, li, dl, dt, dd, span, p, img
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+h1, h2, h3, h4, h5, h6
+{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+ul, ol, li
+{
+	list-style: none;
+}
+table, td, input, search
+{
+	font-size: 12px;
+}
+a:link, a:visited
+{
+	color: #000;
+	text-decoration: none;
+}
+a:hover, a:active
+{
+	color: #c00;
+}
+div.clear
+{
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}
+.head
+{
+	width: 996px;
+	height: 265px;
+	margin: 0 auto;
+	background: url(../images/logo.jpg) top left no-repeat #fff;
+}
+
+.menu
+{
+	width: 996px;
+	height: 30px;
+	margin: 0 auto;
+	background-image: url(../images/menu.jpg);
+}
+.menu ul
+{
+	width: 900px;
+	float: left;
+	height: 26px;
+}
+.menu ul li
+{
+	width: 93px;
+	float: left;
+	text-align: center;
+	height: 26px;
+	line-height: 26px;
+	border-right: 1px #fff solid;
+}
+.menu ul li a
+{
+	color: #fff;
+}
+.menu ul li.r
+{
+	border: 0px;
+}
+.main
+{
+	width: 996px;
+	height: 260px;
+	margin: 0 auto;
+}
+
+.left
+{
+	float: left;
+	width: 382px;
+	height: 266px;
+	background-image: url(../images/left.jpg);
+	padding: 0 0 0 0;
+}
+.left_top
+{
+	padding-left: 30px;
+	padding-top: 25px;
+	color: red;
+}
+.left_top span
+{
+	float: left;
+	width: 70px;
+	color: #ffa78c;
+	display: inline;
+}
+.left_top_in
+{
+	width: 270px;
+	float: left;
+}
+
+.left_down
+{
+}
+.middle
+{
+	float: left;
+	width: 316px;
+	height: 266px;
+	background-image: url(../images/middle.jpg);
+	padding: 0 0 0 0;
+}
+.right
+{
+	float: left;
+	width: 298px;
+	height: 266px;
+	background-image: url(../images/right.jpg);
+	padding: 0 0 0 0;
+}
+.foot
+{
+	background-image: url(../images/foot.gif);
+	width: 996px;
+	height: 110px;
+	margin: 0 auto;
+}
+
+.tubiao
+{
+	float: left;
+	padding-left: 25px;
+	padding-top: 15px;
+	width: 70px;
+}
+
+.content
+{
+	float: left;
+	font-size: 10pt;
+	width: 250px;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+.content2
+{
+	float: left;
+	font-size: 10pt;
+	width: 240px;
+	padding-top: 15px;
+	padding-left: 30px;
+}
+.cotent3
+{
+	float: left;
+	font-size: 10pt;
+	width: 275px;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+.middle_top
+{
+	padding-left: 30px;
+	padding-top: 25px;
+	color: red;
+}
+.middle_top span
+{
+	float: left;
+	width: 70px;
+	color: #ffa78c;
+	display: inline;
+}
+.middle_top_in
+{
+	width: 198px;
+	float: left;
+}
+
+.right_top
+{
+	padding-left: 30px;
+	padding-top: 25px;
+	color: red;
+}
+.right_top span
+{
+	float: left;
+	width: 70px;
+	color: #ffa78c;
+	display: inline;
+}
+.right_top_in
+{
+	width: 205px;
+	float: left;
+}
+.right_middle h1
+{
+	color: red;
+	text-align: center;
+}
+.right_middle p
+{
+	width: 600px;
+	text-align: left;
+	letter-spacing: 3px;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+
+
+.d_content
+{
+	width: 996px;
+	margin: 0 auto;
+	background-color: #fff;
+	min-height:687px;
+
+}
+
+.content_left
+{
+	background-image: url(../images/content_left.jpg);
+	background-repeat: no-repeat;
+	width: 287px;
+	height: 687px;
+	float: left;
+	margin: 0 0 0 0;
+	background-color: #fff;
+}
+.content_left ul
+{
+	width: 170px;
+	padding-top: 30px;
+	padding-left: 50px;
+}
+.content_left ul li
+{
+	width: 170px;
+	padding-top: 5px;
+	border-bottom: #555 dotted 1px;
+}
+.content_right
+{
+	width: 709px;
+	height: 685px;
+	float: left;
+	background-color: #fff;
+	margin: 0 0 0 0;
+	display:block;
+}
+
+.right_top2
+{
+	background-image: url(../images/right_top.jpg);
+	width: 685px;
+	height: 34px;
+	margin: 0 auto;
+}
+.right_middle
+{
+	overflow: auto;
+	width: 685px;
+	background-image: url(../images/right_middle.jpg);
+	background-repeat: repeat-y;
+	margin: 0 auto;
+}
+
+.right_bottom
+{
+	background-image: url(../images/right_bottom.jpg);
+	width: 685px;
+	height: 139px;
+	margin: 0 auto;
+}
+
+.topbg
+{
+	background-image: url(../images/topbg.jpg);
+	width: 697px;
+	height: 15px;
+}
+table 
+{
+	border: 1px #efefef solid;
+}
+table  tr
+{
+	border: 1px #efefef solid;
+}
+table  tr td
+{
+	border: 1px #efefef dotted;
+}

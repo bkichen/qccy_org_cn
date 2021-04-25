@@ -1,0 +1,199 @@
+.MainArea{width:1200px;margin:20px auto;}
+
+.MainArea .sectionA .secAleft{width:100%    ;float:left;}
+
+.MainArea .sectionA .secAright{width:475px;float:right;}
+.picScroll-left{width:100%;overflow:hidden;position:relative;}
+.picScroll-left .hd{overflow:hidden;position:absolute;right:10px;bottom:10px;}
+.picScroll-left .hd ul{overflow:hidden; zoom:1;}
+.picScroll-left .hd ul li{
+    background: transparent;
+    border: 1px solid white;
+    float:left;width:10px; height:10px;margin:0 6px;overflow:hidden;text-indent:-999px; cursor:pointer;border-radius:50%;}
+/*.picScroll-left .hd ul li.on{background:yellow;}*/
+.picScroll-left .bd{}
+.picScroll-left .bd ul{overflow:hidden; zoom:1; }
+.picScroll-left .bd ul li{float:left;_display:inline;overflow:hidden;width:100%;height:338px;position:relative;}
+.picScroll-left .bd ul li a,
+.picScroll-left .bd ul li a img{display:block;border:0px;height:100%;}
+.picScroll-left .bd ul li a img{width:100%;height:100%;}
+.picScroll-left .bd ul li .Txt{width:100%;position:absolute;left:0;bottom:0;}
+.picScroll-left .bd ul li .Txt a{display:block;width:100%;line-height:30px;color:#fff;text-indent:2em;font-size:0;background:transparent;}
+
+
+
+.MainArea .sectionA .secAright .PlayBox_sz{width:473px;height:84px;overflow:hidden;position:relative;border:1px solid #BCBCBE;background:#EDECF2;}
+.MainArea .sectionA .secAright .PlayBox_sz .bd{}
+.MainArea .sectionA .secAright .PlayBox_sz .bd ul{overflow:hidden; zoom:1;}
+.MainArea .sectionA .secAright .PlayBox_sz .bd ul li{zoom:1;padding:0 1em;}
+.MainArea .sectionA .secAright .PlayBox_sz .bd ul li a{display:block;line-height:84px;color:#DA1A29;font-size:20px;font-weight: bold;}
+.MainArea .sectionA .secAright .PlayBox_sz .bd ul li a:hover{text-decoration:underline;}
+.MainArea .sectionA .secAright .PlayBox_sz .Pic{width:70px;height:84px;position:absolute;right:0;top:0;z-index:5;}
+.MainArea .sectionA .secAright .PlayBox_sz .Pic img{display:block;}
+.gongzuodongtaiUL li a,
+.picMarquee-left .bd ul li a{padding-left:1em;background:url(http://youth.bjchy.gov.cn/images/2017062315270122512.png) no-repeat 2px center;}
+
+.gongzuodongtaiUL li h3 a,
+.gongzuodongtaiUL li .summary a{background-image:none;padding-left:0;}
+.gongzuodongtaiUL li a,
+.gongzuodongtaiUL li span{float:left;line-height:30px;*line-height:28px;color:#444;font-size:16px;}
+.gongzuodongtaiUL li span{float:right;}
+.gongzuodongtaiUL li.firstLi a,
+.gongzuodongtaiUL li.firstLi span{float:none;}
+.gongzuodongtaiUL li.firstLi h3 a{display:block;font-size:24px;font-weight:bold;color:#DA1A29;text-align:center;margin:20px 0 10px;}
+.gongzuodongtaiUL li.firstLi .summary{font-size:14px;color:#444;line-height:28px;text-indent:1em;}
+.gongzuodongtaiUL li.firstLi .summary a{display:inine;float:none;line-height:28px;color:#DA1A29;}
+.gongzuodongtaiUL li:hover a,
+.gongzuodongtaiUL li:hover span{color:#DA1A29;}
+
+.MainArea .sectionB{margin:20px auto;margin-top:10px;margin-bottom:9px;}
+.picMarquee-left{overflow:hidden; position:relative;width:1050px;background:#EDECF2;height:51px;float:left;}
+.tongzhigonggao > a{display:block;float:left;width:148px;height:51px;background:url(http://youth.bjchy.gov.cn/images/2017052609244999882.jpg) no-repeat 0 0;text-align:center;color:#fff;line-height:51px;font-size:20px;}
+.picMarquee-left .bd ul{overflow:hidden; zoom:1;}
+.picMarquee-left .bd ul li{float:left; _display:inline; overflow:hidden;}
+.picMarquee-left .bd ul li{line-height:51px;font-size:14px;margin:0 20px;}
+.picMarquee-left .bd ul li a,
+.picMarquee-left .bd ul li span{line-height:51px;font-size:14px;}
+.picMarquee-left .bd ul li span{margin-left:20px;}
+
+
+.MainArea .sectionD .Left{width:930px;float:left;overflow:hidden;}
+.MainArea .sectionD .Right{width:240px;float:right;}
+
+.MainArea .sectionD .Left .news{width:930px;}
+.MainArea .sectionD .Left .Li{width:455px;height:205px;float:left;}
+.MainArea .sectionD .Left .Li:nth-of-type(2n){margin-left:20px;}
+
+.MainArea .sectionD .Left .Li .twopartChoose{width:100%;height:30px;border-bottom:1px solid #DA1A29;}
+.MainArea .sectionD .Left .Li .twopartChoose a{display:inline-block;line-height:30px;padding:0 10px;font-size:16px;color:#DA1A29;font-weight:bold;cursor:pointer;}
+.MainArea .sectionD .Left .Li .twopartChoose a.col{color:#b80219;border-bottom:2px solid #DA1A29;margin-top:-2px;}
+.MainArea .sectionD .Left .Li .actical .wenzhang{display:none;}
+.MainArea .sectionD .Left .Li .actical .wenzhang:first-child{display:block;}
+
+
+
+.qiaolianbanKUai li{width: 174px;margin-top: 20px;float: left;margin-left: 33px;margin-right: 33px;}
+.qiaolianbanKUai li a{display:block;padding-left:70px;line-height:39px;font-size:16px;color:#fff;}
+.qiaolianbanKUai .Li1{background:url(http://youth.bjchy.gov.cn/images/2017060214221186297.jpg) no-repeat 0 0;}
+.qiaolianbanKUai .Li2{background:url(http://youth.bjchy.gov.cn/images/2017060214304665953.jpg) no-repeat 0 0;}
+.qiaolianbanKUai .Li3{background:url(http://youth.bjchy.gov.cn/images/2017060214313363772.jpg) no-repeat 0 0;}
+.qiaolianbanKUai .Li4{background:url(http://youth.bjchy.gov.cn/images/2017060214320890181.jpg) no-repeat 0 0;}
+.qiaolianbanKUai .Li5{background:url(http://youth.bjchy.gov.cn/images/2017060214325219901.jpg) no-repeat 0 0;}
+.qiaolianbanKUai .Li6{background:url(http://youth.bjchy.gov.cn/images/2017060214332642573.jpg) no-repeat 0 0;}
+
+.loginBtn{margin:15px 0;padding-top:15px;border-top:1px solid #ccc;}
+.loginBtn li{width: 100%;float: left;background: url(http://youth.bjchy.gov.cn/images/2017080209283767775.png) no-repeat;margin-top:10px;}
+.loginBtn li a{display:block;}
+.loginBtn li a .txt{display:block;float:left;width:160px;font-size:18px;text-align: center;line-height: 60px;}
+.loginBtn li a .Img{
+overflow:hidden;
+display:block;
+float:left;
+width:60px;
+}
+
+.loginBtn li a .Img img{
+-o-transition: 		all 0.5s ease-out 0s;
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: 	all 0.5s ease-out 0s;
+    transition: 		all 0.5s ease-out 0s;
+}
+
+.loginBtn li:hover a .Img img{
+  -o-transform:rotateZ(360deg);
+  -moz-transform:rotateZ(360deg);
+  -webkit-transform:rotateZ(360deg);
+  transform:rotateZ(360deg);
+}
+
+.sectionE .Left{width:930px;float:left;}
+.sectionE .Right{width:240px;float:right;}
+
+.sectionE .Left .qiaoxun{width:455px;float:left;}
+.sectionE .Left .yuandi{width:455px;float:right;}
+
+.sectionE .Left .qiaoxun .qikanBox{margin-top:20px;}
+.sectionE .Left .qiaoxun .qikanBox li{width:106px;height:127px;position:relative;float:left;margin-left:30px;}
+.sectionE .Left .qiaoxun .qikanBox li img{width:106px;height:127px;}
+.sectionE .Left .qiaoxun .qikanBox li a{display:block;width:100%;height:30px;background:#000;color:#fff;font-size:14px;line-height:30px;text-align:center;position:absolute;bottom:0;left:0;}
+
+.sectionE .Left .yuandi .studyPARt{margin-top:20px;}
+.sectionE .Left .yuandi .studyPARt .studyPic img{width:162px;height:127px;}
+.sectionE .Left .yuandi .studyPARt .studyPic{float:left;width:162px;}
+.sectionE .Left .yuandi .studyPARt .studyUl{width:270px;float:left;padding-left:20px;}
+.sectionE .Left .yuandi .studyPARt .studyUl li a{display:inline-block;line-height:28px;font-size:16px;color:#444;}
+.sectionE .Left .yuandi .studyPARt .studyUl li a:hover{color:#DA1A29;}
+
+
+
+.sectionE .Right .studyPARt{margin-top:20px;}
+.sectionE .Right .studyPic img{width:100%;height:127px;}
+.sectionE .Right .studyPic{float:left;width:100%;}
+.sectionE .Right .studyUl{width:195px;float:left;padding-left:20px;}
+.sectionE .Right .studyUl li a{display:inline-block;line-height:28px;font-size:14px;color:#444;}
+.sectionE .Right .studyUl li a:hover{color:#DA1A29;}
+
+.pinpaiHD{width:100%;overflow:hidden;position:relative;margin-top:20px;}
+.pinpaiHD .bd{padding:0 50px;}
+.pinpaiHD .bd .tempWrap{width:1098px!important;}
+.pinpaiHD .bd ul{overflow:hidden; zoom:1;}
+.pinpaiHD .bd ul li{float:left; _display:inline; overflow:hidden;position:relative;margin-right:20px;}
+.pinpaiHD .bd ul li img{width:258px;height:145px;}
+.pinpaiHD .bd ul li a{dsipaly:block;width:100%;position:absolute;bottom:0;left:0;line-height:30px;color:#fff;text-align:center;background:#000;}
+
+.pinpaiHD .next,
+.pinpaiHD .prev{display:block;width:33px;height:30px;position:absolute;left:0;top:50%;margin-top:-17px;}
+
+.pinpaiHD .prev{background-image:url(http://youth.bjchy.gov.cn/images/2017052713190748449.png);}
+.pinpaiHD .next{left:auto;right:0;background:url(http://youth.bjchy.gov.cn/images/2017052713184950248.png) no-repeat 0 0;}
+
+.pinpaiHD .next:hover{background-image:url(http://youth.bjchy.gov.cn/images/2017052713185831940.png);}
+.pinpaiHD .prev:hover{background-image:url(http://youth.bjchy.gov.cn/images/2017052713191684697.png);}
+
+
+.PLAYbTN .studyPic a{display:block;width:240px;height:127px;position:relative;}
+.PLAYbTN .studyPic a i{width:50px;height:50px;position:absolute;left:50%;top:50%;margin:-25px 0 0 -25px;background:url(http://youth.bjchy.gov.cn/images/2017081110114998471.png) no-repeat center center;}
+
+
+/*基层侨联*/
+.JCQL{padding-left:30px;margin-top:20px;}
+.JCQL .Li ol li{float:left;}
+.JCQL .Li ol li a{disolay:inlink-block;border-left:1px solid #ccc;line-height:28px;padding:0 10px;font-size:14px;}
+.JCQL .Li ol li:first-child{line-height:28px;color:#CB2438;font-weight:bold;}
+
+.JCQL .Li ol li.nobor a{border-left:none;}
+
+
+.friendsSHOP{margin-top:20px;}
+.friendsSHOP select{width:235px;margin-left:33px;font-size:14px;}
+.friendsSHOP select:first-child{margin-left:68px;font-size:14px;}
+
+/*桥联组织*/
+.qiaolzz{ height:120px;width:100%;}
+.qiaolzz ul{height:30px;}
+.qiaolzz ul li{float:left;padding-left: 10px;padding-right: 10px;font-size:14px;line-height: 30px;}
+.qiaolzz ul li a{font-size:14px;}
+
+@media screen and (max-width: 1400px) {
+    .MainArea {
+        width: 1100px;
+    }
+    .MainArea .XIANGXIactical{
+        width:1100px;
+    }
+    .index_nav .Ul{
+        padding-left: 184px;
+    }
+    .index_nav .Ul .one{
+        width: 150px;
+    }
+    .lineBottom{
+        width: 980px;
+    }
+    .jcxxcontent .inerDiv:first-child{
+        padding-right: 10px;
+    }
+    .jcxximg{
+        width:200px;
+    }
+}

@@ -1,0 +1,112 @@
+#content{
+	position: relative;
+	width: 1016px;
+	height: 550px;
+	/*border: 1px solid #f00;*/
+}
+#content .wrap{
+	position: relative;
+	width: 100%;
+	height:auto;
+	background: url(http://youth.bjchy.gov.cn/CYQN/images/bg1.jpg) no-repeat;
+}
+#content .wrap .wraps{
+	position: relative;
+	top: 20px;
+	width: 96%;
+	height: auto;
+}
+#content .wrap .left{
+	position: relative;
+	width: 297px;
+	height: 461px;
+	float: left;
+	border-radius: 5px;
+	/*background: url(../images/movie-left.png) no-repeat;*/
+}
+#content .wrap .left .l-top{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background-color: #019ed3;
+	border-radius: 5px;
+	color: #fff ;
+	font-weight: bold;
+}
+#content .wrap .left .movie-list{
+	position: absolute;
+	width: 100%;
+	height: 400px;
+    +margin-left:-100px;
+	z-index: 99;
+}
+#content .wrap .left .movie-list ul{
+	width: 100%;
+	height: auto;
+	list-style: none;
+	margin-left: 0px;
+	+margin-left: -150px;
+	overflow: hidden;
+}
+#content .wrap .left .movie-list ul li{
+	width: 100%;
+	height: 35px;
+	line-height: 50px;
+	border-bottom: 1px dashed #ff9902;
+	color: #fff;
+}
+#content .wrap .left .movie-list ul li span a{
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	/*color: #fff;*/
+	border-radius: 10px;
+	outline: 0px;
+}
+#content .wrap .left .movie-list ul li span{
+	display: inline-block;
+	margin-top: 10px;
+	width: 95%;
+	height: 30px;
+	line-height: 40px;
+	/*color: #fff;*/
+	border-radius: 10px;
+	/*background: url(../images/movie-li.png) no-repeat;*/
+}
+#content .wrap .left .movie-list ul li a:link{
+
+}
+#content .wrap .left .movie-list ul li a:visited{
+
+}
+/*#content .wrap .left .movie-list ul li a:hover{
+	background: url(../images/movie-li2.png) no-repeat;
+}*/
+#content .wrap .left .movie-list ul li a:active{
+
+}
+/*#content .wrap .left .movie-list ul li span.red{
+	background: url(../images/movie-li2.png) no-repeat;
+}*/
+#content .wrap .right{
+	width: 678px;
+	height: 461px;
+	float: right;
+	border-radius: 5px;
+	/*background: url(../images/movie-right.png) no-repeat;*/
+}
+#content .wrap .right .r-top{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background-color: #019ed3;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: bold;
+}
+#content .wrap .right .movies{
+	margin-top: 10px;
+	width:100%; 
+	height:400px;
+}

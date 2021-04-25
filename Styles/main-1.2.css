@@ -1,0 +1,1258 @@
+
+/* CUI QCCY CSS Document PENG */
+body, html {
+	font-size: 13px;
+	font-family: "宋体";
+	line-height: 150%;
+	height: 100%;
+	margin: 0;
+	padding: 0px;
+	background: #fff2cd;
+}
+.Brak
+{
+	word-break: break-all;
+}
+
+div, form, ul, ol, li, dl, dt, dd, span, p, img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+}
+img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+ul, ol, li {
+	list-style: none;
+}
+table, td, input, search {
+	font-size: 12px;
+	height: 1px;
+
+}
+a:link, a:visited {
+	color: #000;
+	text-decoration: none;
+}
+a:hover, a:active {
+	color: #c00;
+}
+div.clear, div.cuiclearpeng, div.cuipengClear, div.QccycuipengCssClear {
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}
+
+/* CUI QCCY CSS -- indexTop -- START PENG */
+.indexTop {
+	width: 996px;
+	height: 37px;
+	margin: 0 auto;
+	background: url(../images/topBack.jpg) top left no-repeat #fff;
+}
+.indexTopMenu {
+	width: 674px;
+	float: left;
+	height: 27px;
+	padding: 10px 0 0 10px;
+}
+.indexTopMenu ul {
+	width: 674px;
+	height: 27px;
+	float: left;
+}
+.indexTopMenu ul li {
+	width: 67px;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+	float: left;
+	font-weight: bold;
+	color: #6c2f03;
+	background: url(../images/MenuCutLine.gif) right 7px no-repeat;
+}
+.indexTopMenu ul li.r {
+	background: none;
+}
+
+
+
+.indexTopMenu ul li a:link, .indexTopMenu ul li a:visited {
+	color: #6c2f03;
+	text-decoration: none;
+	padding: 0 0 0 0;
+}
+.indexTopMenu ul li a:hover, .indexTopMenu ul li a:active {
+	color: #c00;
+	text-decoration: none;
+	padding: 0 0 0 0;
+}
+.indexTopDate {
+	width: 240px;
+	height: 23px;
+	line-height: 23px;
+	color: #fff;
+	margin: 0 0 0 50px;
+	text-align: center;
+	float: left;
+}
+/* CUI QCCY CSS -- indexTop -- END PENG */
+
+
+/* CUI QCCY CSS -- indexBanner -- START PENG */
+.indexBanner {
+	width: 996px;
+	height: 191px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #fff;
+}
+/* CUI QCCY CSS -- indexBanner -- END PENG */
+
+
+/* CUI QCCY CSS -- indexUnBannder -- START PENG */
+.indexUnBannder {
+	width: 996px;
+	height: 26px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: url(../images/UnBanner.jpg) top left no-repeat #fff;
+}
+.search {
+	width: 299px;
+	height: 20px;
+	line-height: 20px;
+	margin: 3px 0px 0px 30px;
+	color: #fff;
+	background: url('../images/searchBack.gif') no-repeat right top;
+	float: left;
+}
+.search span {
+	height: 20px;
+	line-height: 20px;
+	padding-top:0px;
+	text-align: left;
+	float: left;
+	 vertical-align:middle;
+}
+.siteSearch {
+	width: 60px;
+}
+.searchBox {
+	width: 181px;
+	text-align: left;
+}
+.searchBox input {
+	float: left;
+	padding-top:2px;
+}
+.searchInfo {
+	background: none;
+	border: 0px;
+	margin: -2px 8px 0 14px;
+	width: 155px;
+	height:26px;
+	line-height: 22px;
+}
+.searchButton 
+{
+	font-size:13px;
+	vertical-align:top;
+	width: 54px;
+	height: 25px;
+	line-height: 19px;
+	border: 0px;
+	background: none;
+}
+.weather {
+	width: 240px;
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	margin: 3px  0 0 10px;
+	color: #fff;
+	text-align: center;
+}
+.weather a, #city a, #temp1 a, #wd1 a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.indexLink {
+	width: 340px;
+	height: 20px;
+	line-height: 23px;
+	margin: 5px  0 0 17px;
+	float: left;
+}
+.indexLink ul {
+	width: 100%;
+	float: left;
+}
+.indexLink ul li {
+	width: 75px;
+	float: left;
+	background: url(../images/linkArrow.gif) 0px 8px no-repeat;
+}
+.indexLink ul li a {
+	color: #d00000;
+	text-decoration: none;
+	padding: 0 0 0 15px;
+	font-weight: bold;
+}
+/* CUI QCCY CSS -- indexUnBannder -- END PENG */
+
+
+
+/* CUI QCCY CSS -- indexcpContent -- START PENG */
+.indexcpContent {
+	width: 986px;
+	margin: 0 auto;
+	padding: 8px 7px;
+	background: #fff;
+}
+
+/* CUI QCCY CSS -- indexcpLeft -- START PENG */
+.indexcpLeft {
+	width: 750px;
+	float: left;
+}
+.indexcpLeftInfo01 {
+	width: 742px;
+	float: left;
+}
+.indexcpLeftInfo01 h2 {
+	height: 24px;
+	line-height: 24px;
+	text-align: left;
+	text-indent: 20px;
+	color: #fff;
+	background: url(../images/titleBack.jpg) top left no-repeat;
+}
+.indexcpLeftInfo01 h2 span {
+	height: 24px;
+	line-height: 27px;
+	font-size: 9pt;
+	color: #5e2c13;
+	font-weight: normal;
+	float: right;
+	margin: 0 8px 0 0;
+}
+.indexcpLeftInfo01 h2 span a:link, .indexcpLeftInfo01 h2 span a:visited {
+	color: #5e2c13;
+	text-decoration: none;
+}
+.indexcpLeftInfo01 h2 span a:hover, .indexcpLeftInfo01 h2 span a:active {
+	color: #c00;
+	text-decoration: none;
+}
+.powerpoint {
+	width: 343px;
+	height: 219px;
+	float: left;
+	margin: 4px 0px 0 1px;
+}
+.infoList {
+	width: 385px;
+	height: 219px;
+	float: left;
+	padding: 0 0 0 10px;
+	_padding: 0 0 0 5px;
+	margin: 4px 0px 0 0px;
+	background: url(../images/infoLine.gif) 5px 0px repeat-y;
+}
+.infoList ul, .QCListInfo {
+	width: 380px;
+	height: 218px;
+	overflow: hidden;
+	float: left;
+	margin: 0 0 0 4px;
+}
+.infoList ul li, .QCListInfo li {
+	width: 100%;
+	height: 28px;
+	line-height: 28px;
+	float: left;
+	background: url(../images/listBack.gif) left bottom repeat-x;
+}
+.infoList ul li a, .QCListInfo li a {
+	width: 310px;
+	height: 28px;
+	line-height: 28px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	float: left;
+}
+.infoList ul li span, .QCListInfo li span {
+	line-height: 28px;
+	float: right;
+	margin: 0 4px 0 0;
+}
+
+
+
+
+
+
+
+.infoList01 {
+	width: 385px;
+	height: 287px;
+	float: left;
+	padding: 0 0 0 10px;
+	_padding: 0 0 0 5px;
+	margin: 4px 0px 0 0px;
+	background: url(../images/infoLine.gif) 5px 0px repeat-y;
+}
+.infoList01 ul, .QCListInfo {
+	width: 380px;
+	height: 285px;
+	overflow: hidden;
+	float: left;
+	margin: 0 0 0 4px;
+}
+.infoList01 ul li, .QCListInfo li {
+	width: 100%;
+	height: 28px;
+	line-height: 28px;
+	float: left;
+	background: url(../images/listBack.gif) left bottom repeat-x;
+}
+.infoList01 ul li a, .QCListInfo li a {
+	width: 320px;
+	height: 28px;
+	line-height: 28px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	float: left;
+}
+.infoList01 ul li span, .QCListInfo li span {
+	line-height: 28px;
+	float: right;
+	margin: 0 4px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+.indexcpLeftInfo02 {
+	width: 742px;
+	margin: 5px 0 0 0;
+	float: left;
+}
+.indexcpLeftInfo02 h2 {
+	height: 24px;
+	line-height: 24px;
+	text-align: left;
+	text-indent: 20px;
+	color: #fff;
+
+}
+.h2back1
+{
+		background: url(../images/titleBack.jpg) top left no-repeat;
+	}
+.indexcpLeftInfo02 h2 span {
+	height: 24px;
+	line-height: 27px;
+	font-size: 9pt;
+	color: #5e2c13;
+	font-weight: normal;
+	float: right;
+	margin: 0 8px 0 0;
+}
+.indexcpLeftInfo02 h2 span a:link, .indexcpLeftInfo02 h2 span a:visited {
+	color: #5e2c13;
+	text-decoration: none;
+}
+.indexcpLeftInfo02 h2 span a:hover, .indexcpLeftInfo02 h2 span a:active {
+	color: #c00;
+	text-decoration: none;
+}
+.infoLeft {
+	width: 343px;
+	height: 345px;
+	margin: 4px 0px 0 0px;
+	float: left;
+}
+.infoLeft ul {
+	width: 340px;
+	height: 306px;
+	overflow: hidden;
+	float: left;
+	margin: 0 0 0 4px;
+}
+.infoLeft ul li {
+	width: 100%;
+	height: 28px;
+	line-height: 28px;
+	float: left;
+	background: url(../images/listBack.gif) left bottom repeat-x;
+}
+.infoLeft ul li a {
+	width: 250px;
+	height: 28px;
+	line-height: 28px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	float: left;
+}
+.infoLeft ul li span {
+	line-height: 28px;
+	float: right;
+	margin: 0 4px 0 0;
+}
+
+
+.h2back
+{
+		background: url(../images/ht01.jpg) top left no-repeat;
+	}
+	.h2back2
+{
+		background: url(../images/ht02.jpg) top left no-repeat;
+	}
+	.h2back3
+{
+		background: url(../images/ht03.jpg) top left no-repeat;
+	}
+	.h2back4
+{
+		background: url(../images/ht04.jpg) top left no-repeat;
+	}
+.infoLeft01 {
+	width: 343px;
+	height: 287px;
+	margin: 4px 0px 0 0px;
+	float: left;
+}
+.infoLeft01 ul {
+	width: 340px;
+	height: 285px;
+	overflow: hidden;
+	float: left;
+	margin: 0 0 0 4px;
+}
+.infoLeft01 ul li {
+	width: 100%;
+	height: 28px;
+	line-height: 28px;
+	float: left;
+	background: url(../images/listBack.gif) left bottom repeat-x;
+}
+.infoLeft01 ul li a {
+	width: 280px;
+	height: 28px;
+	line-height: 28px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	float: left;
+}
+.infoLeft01 ul li span {
+	line-height: 28px;
+	float: right;
+	margin: 0 4px 0 0;
+}
+
+.infoLeft002 {
+	width: 343px;
+	height: 200px;
+	margin: 4px 0px 0 0px;
+	float: left;
+}
+.infoLeft002 ul {
+	width: 340px;
+	height: 175px;
+	overflow: hidden;
+	float: left;
+	margin: 0 0 0 4px;
+}
+.infoLeft002 ul li {
+	width: 160px;
+	height: 53px;
+	line-height: 53px;
+	margin: 3px 4px 2px 0px;
+	float: left;
+	text-indent: 35px;
+	font-weight: bold;
+	font-size: 12px;
+}
+.infoLeft002 ul li a:link, .infoLeft002 ul li a:visited {
+	width: 165px;
+	height: 53px;
+	line-height: 53px;
+	display:block;
+	color: #878787;
+	background: url(../images/TXback.gif) top left no-repeat;
+}
+.infoLeft002 ul li a:hover, .infoLeft002 ul li a:active {
+	width: 165px;
+	height: 53px;
+	line-height: 53px;
+	display:block;
+	color: #666666;
+	background: url(../images/TXback02.gif) top left no-repeat;
+}
+.infoLeft002 ul li a.r {
+	color: #666666;
+	background: url(../images/TXback02.gif) top left no-repeat;
+}
+.infoLeft002 ul li span {
+	display: none;
+}
+.infoRight {
+	width: 385px;
+	height: 345px;
+	float: left;
+	padding: 0 0 0 10px;
+	_padding: 0 0 0 5px;
+	margin: 4px 0px 0px 1px;
+	background: url(../images/infoLine.gif) 5px 0px repeat-y;
+}
+.JCListBox {
+	width: 385px;
+	height: 312px;
+	overflow: hidden;
+}
+.JCListBox a{
+	width: 180px;
+	
+}
+#JCList td {
+	height: 28px;
+	vertical-align: middle;
+	border-bottom: 1px #efefef solid;
+	overflow: hidden;
+}
+.JCListTitle {
+	font-weight: bold;
+	color: #512208;
+}
+.bannerShow {
+	width: 742px;
+	float: left;
+	overflow: hidden;
+}
+.QkInfo {
+	width: 742px;
+	margin: 5px 0 0 0;
+	float: left;
+}
+.QkInfo h2 {
+	height: 24px;
+	line-height: 24px;
+	text-align: left;
+	text-indent: 20px;
+	color: #fff;
+	background: url(../images/titleBack.jpg) top left no-repeat;
+	
+}
+.QkInfo h2 span {
+	height: 24px;
+	line-height: 27px;
+	font-size: 9pt;
+	color: #5e2c13;
+	font-weight: normal;
+	float: right;
+	margin: 0 8px 0 0;
+}
+.Qkcontent {
+	width: 742px;
+	margin: 8px 0 0 0;
+	float: left;
+}
+.QkBox {
+	width: 150px;
+	padding: 0 10px;
+	float: left;
+   
+}
+.Qkimg {
+	width: 151px;
+	height: 191px;
+	overflow: hidden;
+}
+.QkName {
+	width: 151px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #50220b;
+	font-weight: bold;
+}
+/* CUI QCCY CSS -- indexcpLeft -- END PENG */
+
+
+/* CUI QCCY CSS -- indexcpRight -- START PENG */
+.indexcpRight {
+	width: 235px;
+	float: left;
+}
+.indexcpRight01 {
+	width: 235px;
+	float: left;
+	text-align: center;
+}
+.indexcpRight01 h2 {
+	width: 100%;
+	height: 24px;
+	line-height: 24px;
+	text-align: left;
+	text-indent: 15px;
+	color: #fff;
+	float: left;
+	background: url(../images/rightTitleBack.jpg) top left no-repeat #fff;
+}
+.indexcpRight01 h2 a:link, .indexcpRight01 h2 a:visited, .indexcpRight01 h2 a:hover, .indexcpRight01 h2 a:active {
+	color: #fff;
+	text-decoration: none;
+}
+.indexcpRight01 div {
+	width: 100%;
+	margin: 0 auto;
+	float: left;
+}
+.indexcpRight01 div select {
+	width: 190px;
+	margin: 8px 0 5px 0;
+}
+.indexcpRight01 ul {
+	width: 234px;
+	height: 140px;
+	float: left;
+	overflow: hidden;
+}
+.indexcpRight01 ul li {
+	width: 100%;
+	height: 28px;
+	line-height: 28px;
+	text-align: left;
+	float: left;
+	background: url(../images/listBack.gif) left bottom repeat-x;
+}
+.indexcpRight01 ul li a {
+	width: 230px;
+	height: 28px;
+	line-height: 28px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	float: left;
+}
+.indexcpRight01 ul li span {
+	display: none;
+}
+.indexcpRight02 {
+	width: 235px;
+	float: left;
+	margin: 0 0 8px 0;
+}
+.indexcpRight01 img, .indexcpRight02 img {
+	margin: 8px 0 0 0;
+}
+
+
+.indexcpRight03 {
+	width: 235px;
+	float: left;
+	text-align: center;
+}
+.indexcpRight03 h2 {
+	width: 100%;
+	height: 24px;
+	line-height: 24px;
+	text-align: left;
+	text-indent: 15px;
+	color: #fff;
+	float: left;
+	background: url(../images/rightTitleBack.jpg) top left no-repeat #fff;
+}
+.indexcpRight04 div {
+	width: 100%;
+	margin: 0 auto;
+	float: left;
+}
+.indexcpRight04 div select {
+	width: 190px;
+	margin: 8px 0 5px 0;
+}
+.charter {
+	width: 393px;
+	float: right;
+	margin: 0 0 0 3px;
+	 height:222px;
+ overflow:hidden;
+
+}
+.charter dl {
+	width: 100%;
+	height: 22px;
+	float: left;
+}
+.charter dl dd {
+	width: 83px;
+	height: 22px;
+	line-height: 22px;
+	float: left;
+	margin: 0 1px 0 0;
+	cursor: pointer;
+	text-align: center;
+}
+.videoa {
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	background: #f49a2a;
+}
+.videob {
+	font-size: 12px;
+	font-weight: normal;
+	color: #696969;
+	background: #c8c8c8;
+}
+.charterList {
+	width: 380px;
+	height: 200px;
+	float: left;
+	overflow: hidden;
+	margin: 0 0 0 2px;
+
+}
+.charterList ul {
+	width: 380px;
+	height: 200px;
+	float: left;
+	overflow: hidden;
+}
+.charterList ul li {
+	width: 370px;
+	height: 28px;
+	line-height: 28px;
+	text-align: left;
+	float: left;
+	background: url(../images/listBack.gif) left bottom repeat-x;
+}
+.charterList ul li a {
+	width: 170px;
+	height: 28px;
+	line-height: 28px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	float: left;
+}
+.charterList ul li span {
+	float: right;
+	line-height: 28px;
+}
+/* CUI QCCY CSS -- indexcpRight -- END PENG */
+
+/* CUI QCCY CSS -- indexcpContent -- END PENG */
+
+.noticeListTit {
+	width: 730px;
+	height: 28px;
+	line-height: 26px;
+	text-align: right;
+	padding: 0 10px 0 0;
+	background: url(../images/noticelistback.gif) top left no-repeat;
+	float: left;
+}
+.noticeList {
+	width: 736px;
+	float: left;
+	border: 1px #f8c284 solid;
+	padding: 1px;
+}
+.noticeList h3 {
+	height: 26px;
+	line-height: 26px;
+	font-size: 12px;
+	font-weight: bold;
+	background: url(../images/listArrow.gif) top left no-repeat #fef6df;
+	color: #c73f01;
+	text-indent: 25px;
+	border-bottom: 1px #f8c284 solid;
+}
+.noticeList ul {
+	width: 99%;
+	height: 700px;
+	float: left;
+	overflow: hidden;
+}
+.noticeList ul li {
+	width: 99%;
+	height: 30px;
+	line-height: 30px;
+	background: url(../images/infoBack.gif) left bottom no-repeat;
+	float: left;
+}
+.noticeList ul li a {
+	width: 600px;
+	height: 30px;
+	line-height: 30px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 0 0 0 15px;
+	float: left;
+}
+.noticeList ul li span {
+	float: right;
+	margin: 0 5px 0 0;
+	line-height: 30px;
+}
+.page {
+	width: 726px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	background: #eaeaea;
+	text-align: right;
+	padding: 0 10px 0 0;
+}
+.content {
+	width: 700px;
+	min-height: 700px;
+	margin: 0 auto;
+	padding: 15px;
+}
+.content h4 {
+	text-align: center;
+	font-size: 18px;
+	color: #e20001;
+	margin: 0 0 8px 0;
+}
+.contInfo p {
+	line-height: 23px;
+	text-indent: 2em;
+	margin: 10px 0px;
+}
+.indexcpRight0x {
+	width: 235px;
+	height: 790px;
+	float: left;
+	background: #e7e7e7;
+}
+.indexcpRight0x h2 {
+	height: 25px;
+	line-height: 25px;
+	text-indent: 20px;
+	color: #FFF;
+	background: url(../images/Rtitle.gif) top left no-repeat;
+}
+.indexcpRight0x ul {
+	width: 200px;
+	height: 750px;
+	float: left;
+	padding: 5px 7px 0px 7px;
+	background: #efeff1;
+	margin: 0 0 0 10px;
+}
+.indexcpRight0x ul li {
+	width: 100%;
+	float: left;
+	text-indent: 45px;
+	font-weight: bold;
+}
+.indexcpRight0x ul li a:link, .indexcpRight0x ul li a:visited {
+	line-height: 32px;
+	background: url(../images/RightQ.gif) 0 0 no-repeat;
+	display: block;
+}
+.indexcpRight0x ul li a:hover, .indexcpRight0x ul li a:active {
+	height: 32px;
+	line-height: 32px;
+	background: url(../images/RightQ.gif) 0 -32px no-repeat;
+	color: #f1992f;
+}
+.indexcpRight0x ul div.xxlist {
+	width: 160px;
+	margin: 0 auto;
+	height: 25px;
+	line-height: 25px;
+	text-indent: 13px;
+}
+.indexcpRight0x ul div.xxlist a {
+	background: none;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 0 0 0 4px;
+}
+.infoshow {
+	width: 730px;
+	float: left;
+	height: 235px;
+	overflow: hidden;
+}
+.primatysearch {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background: #eaeaea;
+	text-align: center;
+	float: left;
+	margin: 5px 0;
+}
+.primatysearch input, .primatysearch img {
+	margin: 0px 4px 0 0;
+	vertical-align: middle;
+}
+.prinmatylist {
+	width: 100%;
+
+	float: left;
+	overflow: hidden;
+}
+.prinmatytitle {
+	height: 30px;
+	vertical-align: middle;
+	background: #fef6df;
+	color: #51230c;
+	font-weight: bold;
+}
+.prinmatytitle td {
+	border-top: 1px #f8c284 solid;
+	border-bottom: 1px #f8c284 solid;
+	text-align: left;
+	text-indent: 20px;
+}
+.prinmatyinfo td {
+	height: 29px;
+	vertical-align: middle;
+	text-indent: 20px;
+	border-bottom: 1px #dbdbdb solid;
+	border-bottom-style: dashed;
+}
+.primatysearch img {
+	cursor: pointer;
+}
+.contentmaga {
+	width: 100%;
+	height: 700px;
+	margin: 8px 0 0 0;
+	overflow: hidden;
+}
+.maga {
+	width: 140px;
+	padding: 0 35px;
+	float: left;
+	margin: 10px 8px 0px 14px;
+}
+.magashow {
+	width: 141px;
+	height: 191px;
+	overflow: hidden;
+}
+.magaName {
+	width: 141px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #50220b;
+	font-weight: bold;
+}
+.readmail {
+	width: 100%;
+	height: 276px;
+	background: url(../images/mailback.jpg) right top no-repeat;
+	float: left;
+}
+.mailname {
+	width: 100px;
+	height: 25px;
+	vertical-align: middle;
+	text-align: right;
+	padding: 0 5px 0 0;
+	background: #e6e6e6;
+	border: 1px #fff solid;
+}
+.readmail input
+{
+	 height:18px;
+}
+.mailtitle {
+	width: 430px;
+}
+.mailinfo {
+	width: 430px;
+	height: 150px;
+}
+.submit {
+	height: 30px;
+	vertical-align: middle;
+	text-align: center;
+}
+.submit input {
+	width: 42px;
+	height:25px;
+	margin: 4px 8px 0 0;
+}
+.ddinfo {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+.ddInfoList {
+	width: 100%;
+	float: left;
+	padding: 0 0 4px 0;
+	margin: 0 0 6px 0;
+	background: url(../images/listBack.gif) bottom left repeat-x;
+}
+.ddtitle, .ddques, .ddanswer {
+	width: 704px;
+	margin: 0 auto;
+	padding: 0 0 0 30px;
+	line-height: 24px;
+}
+.ddtitle {
+	height: 25px;
+	margin: 3px 0 2px 0;
+	background: url(../images/cop.gif) 8px 6px  #edefec no-repeat;
+}
+.ddtitle span {
+	width: 140px;
+	float: right;
+	text-align: right;
+	line-height: 24px;
+	margin: 0 5px 0 0;
+}
+.ddques {
+	height: 80px;
+	background: url(../images/refer.gif) 8px 6px #edefec no-repeat;
+}
+.ddanswer {
+	height: 80px;
+	background: url(../images/item.gif) 8px 6px no-repeat;
+}
+.onlineList {
+	width: 736px;
+	float: left;
+	border: 1px #f8c284 solid;
+	padding: 1px;
+}
+.onlinebox {
+	width: 360px;
+	height: 240px;
+	float: left;
+	margin: 0 8px 0 0;
+}
+.onlinebox img {
+	float: left;
+	margin: 4px;
+}
+.boxlistinfo {
+	width: 200px;
+	float: left;
+}
+.boxlistinfo ul {
+	width: 200px;
+	height: 200px;
+	float: left;
+	overflow: hidden;
+}
+.boxlistinfo ul li {
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	background: url(../images/infoBack.gif) left bottom no-repeat;
+	float: left;
+}
+.boxlistinfo ul li a {
+	width: 190px;
+	height: 30px;
+	line-height: 30px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 0 0 0 15px;
+	float: left;
+}
+.boxlistinfo ul li span {
+	display: none;
+}
+.onlinebox2 {
+	width: 360px;
+	height: 255px;
+	float: left;
+	margin: 5px 8px 0 0;
+}
+.boxlistinfo2 {
+	width: 100%;
+	float: left;
+}
+.boxlistinfo2 ul {
+	width: 100%;
+	height: 210px;
+	float: left;
+	overflow: hidden;
+}
+.boxlistinfo2 ul li {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background: url(../images/infoBack.gif) left bottom no-repeat;
+	float: left;
+}
+.boxlistinfo2 ul li a {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 0 0 0 15px;
+	float: left;
+}
+.boxlistinfo2 ul li span {
+	display: none;
+}
+.onlinebox h2, .onlinebox2 h2 {
+	width: 100%;
+	height: 29px;
+	line-height: 29px;
+	float: left;
+	background: url(../images/onTitBack.gif) top left no-repeat;
+	text-indent: 2em;
+	color: #c93f00;
+	text-align: left;
+}
+.onlinebox h2 span, .onlinebox2 h2 span  {
+	font-size: 9pt;
+	font-weight: normal;
+	line-height: 29px;
+	float: right;
+}
+.indexBottom {
+	width: 996px;
+	height: 73px;
+	padding: 20px 0 0 0;
+	line-height: 25px;
+	text-align: center;
+	color: #52220c;
+	margin: 0 auto;
+	background: url(../images/bottomBack.gif) top left repeat-x;
+}
+
+/* --  正文样式开始  -- */
+#contentbox {
+	width: 736px;
+	float: left;
+}
+#contentinfo {
+	width: 686px;
+	margin: 0 auto;
+
+}
+#infocontentbox {
+	width: 686px;
+	float: left;    
+	padding: 20px 0 0 0;
+}
+#contentinfo h4 {
+	font-size: 12px;
+	font-weight: normal;
+	height: 25px;
+	line-height: 25px;
+	color: #B9B9B9;
+	text-align: right;
+	padding: 0 5px 0 0;
+}
+#contentinfo p {
+	line-height: 23px;
+	text-indent: 2em;
+	font-size: 16px;
+	margin: 10px 0px; 
+}
+#contentbox h3 {
+	height: 78px;
+	line-height: 26px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #c73f01;
+	text-indent: 25px;
+	text-align:center;
+	margin-left:-10px;
+}
+
+.entre_info_list_left_top b {
+	color: #ffb410;
+	padding: 0 0 0 8px;
+	height: 23px;
+	line-height: 23px;
+}
+.entre_video_info {
+	height: 0px;
+	line-height: 23px;
+	text-indent: 2em;
+	overflow: hidden;
+	padding: 0px 0px;
+}
+.entre_video_xx {
+	height: 23px;
+	text-align: right;
+	padding-right: 10px;
+	
+}
+.contInfo img
+{
+     width: 80px;
+     margin-bottom:3px;
+}
+.contInfo table
+{
+	width:700px;
+}
+.contInfo table tr td
+{
+	width:220px;
+	text-align:center;
+}
+.contInfo table tr td span
+{
+	font-size:14px;
+    font-weight: bold;
+    
+}         
+.indexcpRight0x .tqwtitle
+{
+    background: url('../images/icons/bg3.gif') repeat-x;
+    width: 195px;
+    height: 23px;
+    margin-left: 20px;
+    padding-top:7px;
+    padding-left:20px;
+}
+.indexcpRight0x .tqwtitle a
+{
+	color: White;
+	font-weight:bold;
+}
+
+
+
+.infoLeft001 {
+	width: 340px;
+	height: 26px;
+	margin: 4px 0px 0 0px;
+	float: left;
+	background-image: url(http://youth.bjchy.gov.cn/images/ht01.gif) repeat-x;
+}
+

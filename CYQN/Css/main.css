@@ -1,0 +1,211 @@
+*{margin: 0 auto;}
+body{text-align: center;}
+img{outline: 0px;}
+*{ margin:0 auto; padding:0; font-family:"微软雅黑"; outline:none;}
+
+
+a{ text-decoration:none; blr:expression(this.onFocus=this.blur()); outline:none; } 
+a:focus{ -moz-outline-style: none;  }
+a div,a span{ cursor:pointer; }
+img, input{ border:0;}
+input,textarea,select {outline:none;} 
+textarea{ resize:none;}
+ul{list-style-type: none;}
+ul li{ float: left;}
+.percent{width: 100%};
+.qing{ overflow:hidden; display:block; clear:both; }
+.lf{ overflow:hidden; display:block; float:left;}
+.rf{  display:block; float:right;}
+#wrap{
+	width: 995px;
+	background-color: #fff;
+	height: auto;
+}
+
+.sebg .imgs{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+}
+.sebg .textsmall{
+	position: absolute;
+	width:49%;
+	height: 20px;
+	top: 4px;
+	left: 28px;
+}
+.sebg .subsmall{
+	position: absolute;
+	width: 28%;
+	font-size: 12px;
+	height: 20px;
+	top: 4px;
+	right: 10px;
+	background-color: #fff;
+	cursor: pointer;
+}
+/*公共搜索结束*/
+
+/*公共底部*/
+.in-bottom{
+	position: relative;
+	width: 100%;
+	height: 100px;
+}
+.in-bottom .bg{
+	width: 100%;
+	height: auto;
+}
+.moretoggle{
+	position: absolute;
+	width: 105px;
+	height: 22px;
+	bottom: 55px;
+}
+img.more{
+	position: absolute;
+	width: 105px;
+	height: 22px;
+	left: 0px;
+}
+/*公共底部结束*/
+
+
+/*公共部分title部分*/
+.tts{
+	position: relative;
+	width: 100%;
+	margin-top: 25px;
+	height: 75px;
+	/*border: 1px solid #f00;*/
+}
+.tts img{	
+	position: relative;
+	width: auto;
+	height: 100%;
+	cursor: pointer;
+}
+.tts img:hover{
+}
+/*公共部分三角*/
+.angle{
+	width: 100%;
+	height: 60px;
+	/*border: 1px solid #ccc;*/
+}
+.angle .angles{
+	width: 55px;
+	height: 60px;
+	cursor: pointer;
+	/*border: 1px solid #0ff;*/
+}
+.angle img{
+	width: 55px;
+	height: 60px;
+}
+
+/*框架搭建*/
+#top-wrap{
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+#top{
+	position: relative;
+	width: 90%;
+	height: auto;
+}
+#content-wrap{
+	position: relative;
+	width: 100%;
+    
+}
+#contents{
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+/*公共头部logo和导航开始*/
+#top .top-title {
+	position: relative;
+	width: 100%;
+	text-align: left;
+	/*height: 120px;*/
+	height: 130px;
+}
+#top .top-title .logo{
+	width: 23%;
+	height: 120px;}
+	#top .top-title .zi{
+	width: 40%;
+	height: 120px;
+}
+#top .top-title .zi .imgzi{
+	margin-top: 35px;
+}
+#top .top-title .logo .imglogo{
+	margin-top: 30px;
+}
+#top .top-title .right{
+	position: relative;
+	width: 28%;
+	height: 120px;
+}
+#top .top-title .right .ss{
+	left: 0px;
+}
+#top .top-title .right a{
+	color: #595757;
+}
+#top .top-title .right .login{
+	margin-left: 10px;
+}
+#top .top-nav{
+	position: relative;
+	width: 100%;
+	text-align: left;
+	height:30px;
+	line-height: 30px;
+}
+#top .top-nav ul {
+	margin-left: 2%;
+}
+#top .top-nav ul li{
+	margin-right: 8px;
+	color: #595758;
+	float: left;
+	display: inline-block;
+    
+}
+ #top .top-nav ul .lis {
+     margin-right:-1%;
+    }
+#top .top-nav ul .li1 {
+    width:8%;
+    margin-left:3px;
+    margin-right: 3px;
+ }
+#top .top-nav ul li a{
+	display:block;
+	color:#595758; 
+	font-size: 16px;
+	text-align: center;
+	display: block; 
+	height: 30px; 
+	line-height: 30px; 
+	overflow: hidden;
+}
+#top .top-nav ul li a span{
+	display: block;
+}
+#top .top-nav ul li a span.s2{
+	color: #48c2e7; 
+}
+
+
+.btn {
+    width:100px;
+    height:30px;
+
+}

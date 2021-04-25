@@ -1,0 +1,174 @@
+
+
+<head>
+    <meta charset="utf-8">
+    <style type="text/css">
+        .style1
+        {
+            width: 57px;
+        }
+    </style>
+    <script type="text/javascript" language="javascript">
+        //验证码：读取cookie中的值
+     function readCookie() {
+        if(document.getElementById("Image").value==""){
+                alert("请输入验证码");
+                return false;
+        }
+         //判断是否存在cookie
+         
+         var isExist = document.cookie.indexOf("ValidateCode=");
+         if (isExist != -1) {
+             //“imgRandom=”后面的等号的位置
+             var c = document.cookie.indexOf("=", isExist) + 1;
+             //获取等号后面的字符串，也就是所需要的验证码！
+             var str = decodeURIComponent(document.cookie.substring(c,c+4));
+            
+             if (document.getElementById("Image").value.toString() == str.toString() || document.getElementById("Image").value.toString() == str.toUpperCase() || document.getElementById("Image").value.toString() == str.toLowerCase()) {
+                 return true;
+             }
+             else {
+                 document.getElementById("Image").select();
+                 document.getElementById("imgRandom").src = "Randomimage_CN.aspx?abc=" + Math.random();
+                 alert("验证码输入错误！")
+                 return false;
+             }
+         }
+     }
+     function check()
+     {
+        if(document.getElementById("txtUserName").value=="")
+        {
+            alert("用户名不能为空");
+            return false;
+        }
+        else if(document.getElementById("txtPassword").value=="")
+        {
+            alert("密码不能为空");
+            return false;
+        }
+        else{
+            return true;
+        }
+     }
+     function submitCheck()
+     {
+        if(check()&&readCookie())
+        {
+            return true;
+        }else{
+            return false;
+        }
+     }
+     //获取图片的src
+     function imgSrc() {
+         // 通过链接让图片中的src发生变化 
+         document.getElementById("imgRandom").src = document.getElementById("imgRandom").src + "?abc=" + Math.random();
+     }
+    </script>
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+
+<form method="post" action="./AdminLogin.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTExMDI2MDY5NWQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgIFCWNoa0lzU2F2ZQULaW1nYnRuTG9naW6VGU8jmd+1FK1vTrpERu70tXG20g==">
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B8B84CAE">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAVpmy80uZOXsdApM1AnoYs4Y3plgk0YBAefRz3MyBlTcHY2+Mc6SrnAqio3oCKbxYYH0gkF819y6IjZa2rXVjNRA0/GJp5UXKL9L+4y5kzcuBQddCcvDcZYSzx4w42IoZw5ZqSD">
+</div>
+
+<center>
+        <table border="0" cellpadding="0" cellspacing="0" width="990">
+<!-- fwtable fwsrc="loginht.png" fwpage="页面 1" fwbase="login.gif" fwstyle="Dreamweaver" fwdocid = "751446653" fwnested="0" -->
+  <tr>
+<!-- Shim row, height 1. -->
+   <td class="style1"><img src="images/spacer.gif" width="531" height="1" border="0" alt=""></td>
+   <td><img src="images/spacer.gif" width="13" height="1" border="0" alt=""></td>
+   <td><img src="images/spacer.gif" width="28" height="1" border="0" alt=""></td>
+   <td><img src="images/spacer.gif" width="43" height="1" border="0" alt=""></td>
+   <td><img src="images/spacer.gif" width="14" height="1" border="0" alt=""></td>
+   <td><img src="images/spacer.gif" width="7" height="1" border="0" alt=""></td>
+   <td><img src="images/spacer.gif" width="3" height="1" border="0" alt=""></td>
+   <td><img src="images/spacer.gif" width="47" height="1" border="0" alt=""></td>
+   <td><img src="images/spacer.gif" width="7" height="1" border="0" alt=""></td>
+   <td><img src="images/spacer.gif" width="21" height="1" border="0" alt=""></td>
+   <td><img src="images/spacer.gif" width="9" height="1" border="0" alt=""></td>
+   <td><img src="images/spacer.gif" width="1" height="1" border="0" alt=""></td>
+   <td><img src="images/spacer.gif" width="266" height="1" border="0" alt=""></td>
+   <td><img src="images/spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+
+  <tr><!-- row 1 -->
+   <td colspan="13"><img name="login_r1_c1" src="images/login_r1_c1.gif" width="990" height="296" border="0" id="login_r1_c1" alt=""></td>
+   <td><img src="images/spacer.gif" width="1" height="296" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 2 -->
+   <td rowspan="6" colspan="3"><img name="login_r2_c1" src="images/login_r2_c1.gif" width="572" height="97" border="0" id="login_r2_c1" alt=""></td>
+   <td colspan="7"><input name="txtUserName" type="text" id="txtUserName" style="width:142px; height:14px; border:0px;">
+   </td><td colspan="3"><img name="login_r2_c11" src="images/login_r2_c11.gif" width="276" height="20" border="0" id="login_r2_c11" alt=""></td>
+   <td><img src="images/spacer.gif" width="1" height="18" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 3 -->
+   <td colspan="7"><img name="login_r3_c4" src="images/login_r3_c4.gif" width="142" height="10" border="0" id="login_r3_c4" alt=""></td>
+   <td colspan="3"><img name="login_r3_c11" src="images/login_r3_c11.gif" width="276" height="10" border="0" id="login_r3_c11" alt=""></td>
+   <td><img src="images/spacer.gif" width="1" height="10" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 4 -->
+   <td colspan="7"><input name="txtPassword" type="password" id="txtPassword" style="width:142px; height:14px; border:0px;"></td>
+   <td colspan="3"><img name="login_r4_c11" src="images/login_r4_c11.gif" width="276" height="20" border="0" id="login_r4_c11" alt=""></td>
+   <td><img src="images/spacer.gif" width="1" height="18" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 5 -->
+   <td colspan="7"><img name="login_r5_c4" src="images/login_r5_c4.gif" width="142" height="10" border="0" id="login_r5_c4" alt=""></td>
+   <td rowspan="3" colspan="3"><img name="login_r5_c11" src="images/login_r5_c11.gif" width="276" height="47" border="0" id="login_r5_c11" alt=""></td>
+   <td><img src="images/spacer.gif" width="1" height="10" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 6 -->
+   <td colspan="2"><input type="text" id="Image" name="Image" style="padding: 0px; border: 0px solid #C0C0C0; width:57px; height:14px; margin:0px;"></td>
+   <td><img name="login_r6_c6" src="images/login_r6_c6.gif" width="7" height="18" border="0" id="login_r6_c6" alt=""></td>
+   <td colspan="2"><img id="imgRandom" src="Randomimage_CN.jpg" style="width:50px; height:16px;" alt=""></td>
+   <td><img name="login_r6_c9" src="images/login_r6_c9.gif" width="7" height="18" border="0" id="login_r6_c9" alt=""></td>
+   <td><a href="javascript:imgSrc()"><img name="login_r6_c10" src="images/login_r6_c10.gif" width="21" height="18" border="0" id="login_r6_c10" alt=""></a></td>
+   <td><img src="images/spacer.gif" width="1" height="18" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 7 -->
+   <td colspan="7"><img name="login_r7_c4" src="images/login_r7_c4.gif" width="142" height="19" border="0" id="login_r7_c4" alt=""></td>
+   <td><img src="images/spacer.gif" width="1" height="19" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 8 -->
+   <td rowspan="3" class="style1"><img name="login_r8_c1" src="images/login_r8_c1.gif" width="531" height="52" border="0" id="login_r8_c1" alt=""></td>
+   <td>
+       <input name="chkIsSave" type="checkbox" id="chkIsSave" style="width:13px; height:13px;"></td>
+   <td colspan="3"><img name="login_r8_c3" src="images/login_r8_c3.gif" width="85" height="14" border="0" id="login_r8_c3" alt=""></td>
+   <td colspan="5"><img name="login_r8_c6" src="images/login_r8_c6.gif" width="85" height="14" border="0" id="login_r8_c6" alt=""></td>
+   <td colspan="3"><img name="login_r8_c11" src="images/login_r8_c11.gif" width="276" height="14" border="0" id="login_r8_c11" alt=""></td>
+   <td><img src="images/spacer.gif" width="1" height="14" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 9 -->
+   <td colspan="9"><img name="login_r9_c2" src="images/login_r9_c2.gif" width="183" height="12" border="0" id="login_r9_c2" alt=""></td>
+   <td colspan="3"><img name="login_r9_c11" src="images/login_r9_c11.gif" width="276" height="12" border="0" id="login_r9_c11" alt=""></td>
+   <td><img src="images/spacer.gif" width="1" height="12" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 10 -->
+   <td colspan="3">
+       <input type="image" name="imgbtnLogin" id="imgbtnLogin" src="images/login_r10_c2.gif" onclick="return submitCheck();" style=" vertical-align:bottom;">
+      </td>
+   <td colspan="3"><img name="login_r10_c5" src="images/login_r10_c5.gif" width="24" height="26" border="0" id="login_r10_c5" alt=""></td>
+   <td colspan="4">
+       <input style="border-style: none; border-width: 0px; width: 84px; height: 26px; margin: 0; border-color: inherit; padding: 0px; background-image: url('images/login_r10_c8.gif'); cursor: pointer;" type="reset" value=""></td>
+   <td><img name="login_r10_c12" src="images/login_r10_c12.gif" width="1" height="26" border="0" id="login_r10_c12" alt=""></td>
+   <td><img name="login_r10_c13" src="images/login_r10_c13.gif" width="266" height="26" border="0" id="login_r10_c13" alt=""></td>
+   <td><img src="images/spacer.gif" width="1" height="26" border="0" alt=""></td>
+  </tr>
+  <tr><!-- row 11 -->
+   <td colspan="13"><img name="login_r11_c1" src="images/login_r11_c1.gif" width="990" height="159" border="0" id="login_r11_c1" alt=""></td>
+   <td><img src="images/spacer.gif" width="1" height="159" border="0" alt=""></td>
+  </tr>
+</table>
+</center>
+</form>
+
+
+
